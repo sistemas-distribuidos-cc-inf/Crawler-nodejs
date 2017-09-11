@@ -3,7 +3,7 @@ var cheerio = require('cheerio');
 var URL = require('url-parse');
 
 var START_URL = "http://www.google.com";
-var SEARCH_WORD = "ornitorrinco";
+var SEARCH_WORD = "pesquisa";
 var MAX_PAGES_TO_VISIT = 50;
 
 var pagesVisited = {};
